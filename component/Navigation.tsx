@@ -14,5 +14,13 @@ export default function Navigation() {
                 </ul>
             </div>
         </nav>
+        <Button
+            className="ml-auto mr-4 w-[120px] h-[40px] btn-primary text-white font-medium flex items-center justify-center"
+            icon="mdi:login"
+            iconWidth={20}
+            iconHeight={20}
+            type="button"
+            text="Login"
+        />
     </header>
 }
